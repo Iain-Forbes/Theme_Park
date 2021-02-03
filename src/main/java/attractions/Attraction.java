@@ -2,6 +2,8 @@ package attractions;
 
 import behaviours.ITicketed;
 
+import java.util.Collection;
+
 public abstract class Attraction implements ITicketed {
     private String name;
     private int rating;
@@ -24,4 +26,6 @@ public abstract class Attraction implements ITicketed {
     public int getVisitCount() {
         return visitCount;
     }
+
+
 }
